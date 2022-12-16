@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/N-EAT-logo.png" type="">
+
+  <title> N-EAT </title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <!-- nice select  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+  <!-- JavaScript-->
+  <script type="text/javascript" src="bootstrap.js"></script>
+    
+
+
+</head>
+
+<body onload="setCaptcha(id_exCaptcha);">
+
+  <div class="hero_area">
+    <div class="bg-box">
+      <img src="images/img-carrousel.png" alt="">
+    </div>
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              <img src="images/N-EAT-logo.png" alt="N-EAT"> N-EAT
+            </span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  mx-auto ">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Acceuil<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#choice">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Information</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#inscription">Inscription</a>
+              </li>
+            </ul>
+            <div class="user_option">
+              <form class="form-inline">
+                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+              </form>
+              <a href="login.html" class="order_online">
+                Connexion
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class="slider_section ">
+      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-7 col-lg-6 ">
+                  <div class="detail-box">
+                    <h1>
+                      Créer son menu avec N-EAT !
+                    </h1>
+                    <p>
+                      À partir des produits dont tu disposes, crées le menu de ton choix selon tes envies. Si tu n'as rien dans ton frigo, ne t'en fais pas, notre site te générera le menu et une liste de course des produits dont tu auras besoin pour cuisiner ta recette !
+                    </p>
+                    <div class="btn-box">
+                      <a href="#choice" class="btn1">
+                        Crées ton menu dès maintenant !
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-7 col-lg-6 ">
+                  <div class="detail-box">
+                    <h1>
+                      Pourquoi utiliser N-Eat ? 
+                    </h1>
+                    <p>
+                      Tu en as marre de toujours manger la même chose ? Tu n'arrives pas à te décider ? Tu suis un régime particulier ? La solution est N-EAT !
+                    </p>
+                    <div class="btn-box">
+                      <a href="#choice" class="btn1">
+                        Crées ton menu dès maintenant !
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-7 col-lg-6 ">
+                  <div class="detail-box">
+                    <h1>
+                      Pense à l'environnement ! 
+                    </h1>
+                    <p>
+                      Grâce à N-EAT, terminé le gaspillage alimentaire ! Tu peux créer un menu en partant des ingrédients à ta disposition. 
+                    </p>
+                    <div class="btn-box">
+                      <a href="#choice" class="btn1">
+                        Crées ton menu dès maintenant !
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <ol class="carousel-indicators">
+            <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
+            <li data-target="#customCarousel1" data-slide-to="1"></li>
+            <li data-target="#customCarousel1" data-slide-to="2"></li>
+          </ol>
+        </div>
+      </div>
+
+    </section>
+    <!-- end slider section -->
+  </div>
+
+
+  <!-- food section -->
+  
+  <section class="book_section layout_padding" id="choice">
+    <div class="container">
+            <div class="heading_container heading_center">
+              <h2>Saisis tes envies pour créer ton menu</h2>
+            </div>
+      
+      <div class="row menu-container col-md-6 form_container">
+        <form method="GET" action=""><div class="formulaire">
+        <table class="choixMenu" >
+          
+          <!--
+            <h7 class="liste"> Choisissez votre régime alimentaire : </h7><br/>
+          -->
+            <tr>
+              <td width="70" colspan="3" >
+                <INPUT type="checkbox" name="Aucun" id="Aucun" value="Aucun" class="radio"> </input>
+                <label class="icon" for="Aucun"> <img src="images/aucune.png" alt="aucune" width="70" height="80"/></label>
+              </td>
+              <td width="70" colspan="3" >
+                 <INPUT type="checkbox" name="Végétarien" id="vegetarien" value="vegetarien"> </input>
+                  <label class="icon" for="vegetarien"><img src="images/vegetarien.png" alt="vegetarien" width="70" height="80" /></label>
+              </td>
+              <td width="70" colspan="3">
+                <INPUT type="checkbox" name="Végan" id="Vegan" value="Vegan"> </input>
+                <label class="icon" for="Vegan"><img src="images/vegane.png" alt="vegan" width="70" height="80" /></label>
+              </td>
+              <td width="70" colspan="3">
+                <INPUT type="checkbox" name="Sans gluten" id="gluten" value="gluten"> </input>
+                <label class="icon" for="gluten"><img src="images/sans gluten.png" alt="gluten" width="70" height="80" /></label>
+              </td>
+              <td width="70" colspan="3">
+                <INPUT type="checkbox" name="Diabétique" id="Diabetique" value="Diabetique"> </input>
+              <label class="icon" for="Diabetique"><img src="images/sans sucre.png" alt="Diabetique" width="70" height="80" /></label>
+              </td>
+            </tr>
+            
+            <tr>
+              <td colspan="15">
+                <!--
+              <label>Ajouter un aliment : </label>
+              <input type="text" name="aliment" id="aliment"></input>-->
+
+              <!--changement-->
+              <div>
+                <input type="text" class="form-control" placeholder="Ajouter des aliments" name="aliment" id="aliment"/>
+              </div>
+              <!--changement finir-->
+              </td>
+            </tr>
+
+            <tr>
+              <td colspan="15">
+                <select class="form-control liste" required>
+                  <option value="" disabled selected>
+                    Nombre de calories
+                  </option>
+                  <option value="">
+                    < 1000
+                  </option>
+                  <option value="">
+                    1000-1500
+                  </option>
+                  <option value="">
+                    1500-2000
+                  </option>
+                  <option value="">
+                    2000-2500
+                  </option>
+                  <option value="">
+                    2500-3000
+                  </option>
+                  <option value="">
+                    >3000
+                  </option>
+                </select>
+              </td>
+            </tr>
+              
+            <tr>
+              <td colspan="5" width="117">
+                <INPUT type="checkbox" name="bas" id="bas" value="bas"> </input>
+              <label class="icon" for="bas"><img src="images/bas.png" alt="bas" width="65" height="75" /></label>
+              </td>
+              <td colspan="5" width="117">
+                <INPUT type="checkbox" name="moyen" id="moyen" value="moyen"> </input>
+                <label class="icon" for="moyen"><img src="images/moyen.png" alt="moyen" width="65" height="75" /></label>
+              </td>
+              <td colspan="5" width="117">
+                <INPUT type="checkbox" name="élevé" id="élevé" value="élevé"> </input>
+                <label class="icon" for="élevé"><img src="images/élevé.png" alt="élevé" width="100" height="75" /></label>
+              </td>
+            </tr>
+
+            <tr>
+              <td colspan="15">
+                <select class="form-control liste">
+                  <option value="" disabled selected>
+                    Nombre de repas
+                  </option>
+                  <option value="">
+                    1 repas
+                  </option>
+                  <option value="">
+                    2 repas
+                  </option>
+                  <option value="">
+                    3 repas
+                  </option>
+                  <option value="">
+                    4 repas
+                  </option>
+                  <option value="">
+                    5 repas
+                  </option>
+                  <option value="">
+                    6 repas
+                  </option>
+                </select>    
+              </td>
+            </tr>
+            
+            <tr>
+              <td colspan="15">
+                <div class="btn_box">
+                  <button>
+                    <input type="submit" value="Générer le menu" class="anniu" name="générer" id="générer">
+                  </button>
+                </div>
+              </td>
+            </tr>
+        
+        </table></div>
+      </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- end food section -->
+   <!-- about section -->
+
+  <section class="about_section layout_padding" id="about">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-6 ">
+          <div class="img-box">
+            <img src="images/about-img.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                A propos de nous
+              </h2>
+            </div>
+            <p>
+              Nous sommes une petite compagnie nait dans le but d'aider via notre site les personnes qui n'ont pas le contrôle de leur nutrition . Avec la saturation des informations venant de l'industrie de la diététique, nous avons décidés de nous concentrer sur les éléments les plus pragmatiques 
+              d'une bonne nutrition tels que l'organisation, les courses et la cuisine. De plus, la surconsommation et le respect de l'environnement sont des sujets d'une grande importance
+              et qui nous touchent tout particulièrement. 
+              Ce site est l'aboutissement d'un long travail dans l'optique de rendre la mise en place de régimes nutritionnels accessible pour tous tout en limitant le gaspillage alimentaire.
+            </p>
+            <a href="#avis">
+              Voir les témoignages
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+  
+  <!-- book section ZHUCE-->
+  <section class="book_section layout_padding" id="inscription">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Inscris-toi dès maintenant !
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form_container">
+            <form action="confirmation.html">
+              <div>
+                <input type="text" class="form-control" placeholder="Nom" required/>
+              </div>
+              <div>
+                <input type="text" class="form-control" placeholder="Prénom" required/>
+              </div>
+              <div>
+                <input type="text" class="form-control" placeholder="Numéro de téléphone" required/>
+              </div>
+              <div>
+                <input type="email" class="form-control" placeholder="Adresse mail" />
+              </div>
+
+              <div>
+                <input type="password" name="mdp" id="mdp" class="form-control" placeholder="Mot de passe" 
+                title="Il faut au moins de 6 caracteres" pattern="[A-Za-z0-9]{6,}" required/>
+              </div>
+              
+              <div>
+                <input type="password" name="cvmdp" id="cvmdp" class="form-control" placeholder="Confirmer le mot de passe" 
+                title="Il faut au moins de 6 caracteres" pattern="[A-Za-z0-9]{6,}" required />
+              </div>
+
+              <div>
+                <table>
+                  <tr>
+                    <td>
+                      <input type="text" name="captcha" id="id_captcha" title="3 lettres majuscules et 3 chiffres" 
+                      placeholder="Captcha" class="form-control" pattern="[A-Z]{3}[0-9]{3}" required/>
+                    </td>
+                    <td class="yincang">--------------</td>
+                    <td>
+                      <input type="text" name="exCaptcha" id="id_exCaptcha" class="form-control" readonly>
+                    </td>
+                  </tr>
+                </table>
+                
+                
+              </div>
+              
+              <div class="btn_box">
+                <table>
+                  <tr>
+                    <td>
+                      <button>
+                          <input type="submit" value="Valider" class="anniu" name="Valider" id="Valider" onClick="return confirm('Etes - vous sûr ?') && verification(mdp,cvmdp) && testCaptcha(id_captcha,id_exCaptcha);">
+                      </button>
+                    </td>
+                    <td class="yincang">--------------------------</td>
+                    <td>
+                      <button>
+                        <input type="reset" value="Reset" class="anniu" name="Reset" id="reset" onClick=" confirm('Etes - vous sûr ?');">
+                      </button>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="map_container ">
+            <div id="googleMap">
+              <img src="images/img-1.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end book section -->
+
+   <!-- client section -->
+
+  <section class="client_section layout_padding-bottom" id="avis">
+    <div class="container">
+      <div class="heading_container heading_center psudo_white_primary mb_45">
+        <h2>
+          Témoignages de nos utilisateurs
+        </h2>
+      </div>
+      <div class="carousel-wrap row ">
+        <div class="owl-carousel client_owl-carousel">
+          <div class="item">
+            <div class="box">
+              <div class="detail-box">
+                <p>
+                  Depuis que je connais N-EAT, je n'arrive plus à m'en passer. A cause de mon travail, je ne prenais pas
+                  le temps de
+                  cuisiner. Aujourd'hui, je n'ai plus besoin de refléchir, N-EAT me propose
+                  directement un menu selon mes envies et me propose même les magasins qui vendent les produits à
+                  utiliser.
+                  JE RECOMMANDE !!!
+
+                </p>
+                <h6>
+                  Moana Michell
+                </h6>
+
+              </div>
+              <div class="img-box">
+                <img src="images/avatar-com-2.png" alt="" class="box-img">
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="detail-box">
+                <p>
+                  N-EAT me propose des menus qui me permettent de cuisiner pour mes enfants des plats variés et équilibrés tout en faisant des économies sur mes courses. 
+                  Etant en plus diabétique, je dois suivre un régime alimentaire spécial avec beaucoup de restrictions. 
+                  Cela me poussait à toujours manger la même chose, ce qui n'est plus la cas grâce à N-EAT !
+                </p>
+                <h6>
+                  Mike Hamell
+                </h6>
+              </div>
+              <div class="img-box">
+                <img src="images/avatar-com-1.png" alt="" class="box-img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end client section -->
+
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 footer-col">
+          <div class="footer_contact">
+            <h4>
+              Nous contacter
+            </h4>
+            <div class="contact_link_box">
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  05 23 45 67 89
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                  n-eat@neat.com
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 footer-col">
+          <div class="footer_detail">
+            <a href="" class="navbar-brand">
+              N-EAT
+            </a>
+            <p>
+              Vous pouvez suivre notre actualité sur nos différents réseaux sociaux pour être au courant de nos
+              nouvelles fonctionnalités.
+            </p>
+            <div class="footer_social">
+              <a href="https://www.facebook.com/">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.twitter.com/">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.linkedin.com/">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.instagram.com/">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.pinterest.com/">
+                <i class="fa fa-pinterest" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 footer-col">
+          <h4>
+            Nos locaux
+          </h4>
+          <p>
+            Adresse : 2 Rue du Doyen Gabriel Marty, 31000 Toulouse
+          </p>
+        </div>
+      </div>
+      <div class="footer-info">
+        <p>
+          &copy; <span id="displayYear"></span> Tous droits réservés par
+          <a href="https://html.design/">Modèles HTML gratuits</a><br><br>
+          &copy; <span id="displayYear"></span> Distribué par
+          <a href="https://themewagon.com/" target="_blank">ThèmeWagon</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section -->
+
+  <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- owl slider -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <!-- isotope js -->
+  <script src="https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js"></script>
+  <!-- nice select -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+
+
+</body>
+
+</html>
